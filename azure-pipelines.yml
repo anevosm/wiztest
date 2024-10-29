@@ -22,4 +22,3 @@ steps:
     secret: $(WIZ_CLIENT_SECRET)
     path: '.'
     policyHitsOnly: true
-    scanPolicies: 'vuln-one-medium'
