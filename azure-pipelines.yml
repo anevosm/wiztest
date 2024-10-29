@@ -15,15 +15,6 @@ steps:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
-- task: wiz@0
-  inputs:
-    command: 'dir'
-    clientid: 'lwhao2f3pbbangymdhfok2hw7j5toupsqruf3tmsgjblz5pbh3nws'
-    secret: 'e3FkW8Sf2tyzJvZaNQJtFivWok4KSOPEtz52Bk67SXkvi4c0qqiZVbfQqOootULC'
 - task: wiz@0
   inputs:
     command: 'dir'
